@@ -1,0 +1,28 @@
+# fotoframe の設定ファイルの例。~/.config/fotoframe/config.toml にコピーして使う。
+# photo_dir 以外は省略でき、省略すると下の値になる。
+
+# 表示する写真のフォルダ。サブフォルダもすべて対象になる（必須）
+photo_dir = "/mnt/multimedia/photo"
+
+# 1枚を表示する秒数
+interval_seconds = 60
+
+# 切り替え効果にかける秒数（0 以上、interval_seconds 未満）
+transition_seconds = 1.5
+
+# 表示モード: "fit"（全体を収める）、"fill"（画面を埋める）、"random"（写真ごとにどちらか）
+display_mode = "random"
+
+# 切り替え効果の候補。切り替えのたびにこの中から選ぶ
+# "none"、"fade"、"slide_horizontal"、"slide_vertical"
+effects = ["none", "fade", "slide_horizontal", "slide_vertical"]
+
+# 写真フォルダを走査し直す間隔（分）
+rescan_minutes = 60
+
+# 先読みバッファの容量（MB）
+buffer_megabytes = 300
+
+# 消灯する時間帯（"HH:MM"）。両方を指定する。省略すると消灯しない
+# sleep_start = "23:00"
+# sleep_end = "07:00"

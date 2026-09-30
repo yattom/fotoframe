@@ -46,6 +46,8 @@ Debian trixie のパッケージを使う。apt では細かいバージョン�
 | libturbojpeg0-dev | 1:2.1.5-4 |
 | libexif-dev | 0.6.25-1+deb13u1 |
 | cmake | 3.31.6-2 |
+| libtomlplusplus-dev | 3.4.0+ds-0.2+b1 |
+| libgtest-dev | 1.16.0-1 |
 | g++ | 14.2.0 |
 
 ## システム設定
@@ -56,4 +58,5 @@ Debian trixie のパッケージを使う。apt では細かいバージョン�
 ## 未決定事項
 
 - 起動と異常終了時の再起動：labwc の autostart から起動するか、systemd ユーザーサービス（`Restart=always`）にするか。後者の場合は Wayland の環境変数の受け渡しを確認する必要がある
-- 消灯（F9）：アプリ内で時刻を判定して `wlopm` を呼ぶか、別途 systemd タイマーで `wlopm` を呼ぶか
+
+クラス設計とファイル構成は [design.md](design.md) を参照。
