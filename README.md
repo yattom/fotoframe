@@ -1,4 +1,4 @@
-# photoframe
+# fotoframe
 
 Raspberry Pi 4 を使ったデジタルフォトフレーム。NAS 上の写真をシャッフルしながらフルスクリーンでスライドショー表示する。
 

@@ -1,4 +1,4 @@
-# photoframe アーキテクチャ
+# fotoframe アーキテクチャ
 
 仕様は [spec.md](spec.md) を参照。
 

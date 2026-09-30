@@ -1,4 +1,4 @@
-# photoframe 仕様
+# fotoframe 仕様
 
 ## 目的
 
